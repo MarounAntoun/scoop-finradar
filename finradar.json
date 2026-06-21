@@ -12,7 +12,7 @@
   "bin": "finradar.exe",
   "checkver": {
     "github": "https://github.com/MarounAntoun/finradar-cli",
-    "regex": "cli-v([\d.]+)"
+    "regex": "cli-v([\\d.]+)"
   },
   "autoupdate": {
     "architecture": {
