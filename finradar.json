@@ -6,7 +6,7 @@
   "architecture": {
     "64bit": {
       "url": "https://github.com/MarounAntoun/finradar-cli/releases/download/cli-v0.1.0/finradar-windows.exe#/finradar.exe",
-      "hash": "REPLACE_AT_RELEASE"
+      "hash": "REPLACE_WINDOWS_SHA256"
     }
   },
   "bin": "finradar.exe",
