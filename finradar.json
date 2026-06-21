@@ -1,0 +1,24 @@
+{
+  "version": "0.1.0",
+  "description": "FinRadar CLI — query SEC filings and insider data from the terminal",
+  "homepage": "https://github.com/MarounAntoun/finradar-cli",
+  "license": "MIT",
+  "architecture": {
+    "64bit": {
+      "url": "https://github.com/MarounAntoun/finradar-cli/releases/download/cli-v0.1.0/finradar-windows.exe#/finradar.exe",
+      "hash": "REPLACE_AT_RELEASE"
+    }
+  },
+  "bin": "finradar.exe",
+  "checkver": {
+    "github": "https://github.com/MarounAntoun/finradar-cli",
+    "regex": "cli-v([\d.]+)"
+  },
+  "autoupdate": {
+    "architecture": {
+      "64bit": {
+        "url": "https://github.com/MarounAntoun/finradar-cli/releases/download/cli-v$version/finradar-windows.exe#/finradar.exe"
+      }
+    }
+  }
+}
